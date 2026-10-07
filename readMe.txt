@@ -22,3 +22,10 @@ Une arborescence typique pourrait être organisée de cette façon :
 ------------PageInfo1
 ------------PageInfo2
 -pageAccueil.html
+
+BarrosBerry : Tiago BARROS SÁ PAULOS
+canonvirgile : Virgile Canon
+ignir64 : Thibaut FONTAINE
+B6H_D4 : Bixente HIRIART--DICHARRY
+Luca-Larrarte : Luca LARRARTE
+MrDaWae : Maël STIENNE
