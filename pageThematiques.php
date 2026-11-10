@@ -8,11 +8,19 @@
 <body>
     <h3>Nom de groupe de thématique : </h3>
         <ul>
-            <button class=".btn">Thématique 1 </button>
-            <button class=".btn">Thématique 2 </button>
-            <button class=".btn">Thématique 3 </button>
+            <button class="btn btn-primary" id="thematique1">Thématique 1 </button>
+            <button class="btn btn-primary" id="thematique2">Thématique 2 </button>
+            <button class="btn btn-primary" id="thematique3">Thématique 3 </button>
         </ul>
 
     <h3>Nom de groupe de thématique : </h3>
+        <ul>
+            <button class="btn btn-primary">Thématique 1 </button>
+            <button class="btn btn-primary">Thématique 2 </button>
+            <button class="btn btn-primary">Thématique 3 </button>
+        </ul>
 </body>
+<footer>
+	<p>&copy; 2025</p>
+</footer>
 </html>
