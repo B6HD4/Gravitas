@@ -17,7 +17,14 @@
 	
     <titre>
 		<h1>Titre de l'article</h1>
-</titre>
+    </titre>
+    <sommaire>
+        <h2>Sommaire :</h2>
+        <p>Intro</p>
+        <p>Chap 1</p>
+        <p>Chap n</p>
+        <p>Lien vers les sources</p>
+    </sommaire>
     <article>
         <p>Contenu de l'article :<br></br> 
                 « Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, 
