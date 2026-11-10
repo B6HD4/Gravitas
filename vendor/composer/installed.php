@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'b6hd4/gravitas',
+        'name' => '__root__',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'c5c1ed36faef404149f5f09cb52d8eab8ca7207c',
+        'reference' => '51085b42e69f58565e794df5cdc73be73f95a5ec',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'b6hd4/gravitas' => array(
+        '__root__' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'c5c1ed36faef404149f5f09cb52d8eab8ca7207c',
+            'reference' => '51085b42e69f58565e794df5cdc73be73f95a5ec',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
