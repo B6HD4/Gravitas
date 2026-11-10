@@ -6,6 +6,18 @@
         $sql = "SELECT * FROM BADGE";
         $pdoStatement = $pdo->prepare($sql);
         $pdoStatement->execute();
-        $badge = $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
-        var_dump($badge)
+        $badges = $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($badges as $badge) {
+            foreach ($badge as $key => $value) {
+                if ($key=='idBadge') {
+                    $idImage="Image".$value;
+                }
+                if ($key=='lienImage') {
+                    echo "<img id=$idImage src=image.php?img=$value>";
+                }
+                if ($key=='libelle') {
+                    echo"<ul>$value</ul>";
+                }
+            }
+        }
 ?>
