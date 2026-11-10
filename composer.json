@@ -1,8 +1,5 @@
 {
-        "name": "b6hd4/gravitas",
-        "description": "Application web ludique sur la poilitique française",
-        "license": "proprietary",
-        "require": {
-                "twig/twig": "^3.30"
-        }
+    "require": {
+        "twig/twig": "^3.30"
+    }
 }
