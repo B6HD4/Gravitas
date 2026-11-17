@@ -7,6 +7,10 @@
     <link  rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link  rel="stylesheet" type="text/css" href="styleThematique.css">
 
+    <?php
+    //Connexion à la base de données en pdo
+        require_once 'connexion.php';
+    ?>
     
 </head>
 <body>
