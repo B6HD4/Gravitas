@@ -7,21 +7,21 @@ Plusieurs fichiers de code, sûrement répartis dans des dossiers afin de facili
 
 Une arborescence typique pourrait être organisée de cette façon :
 
--Images
--Thematiques
-----Thematiques 1
-------------PageInfo1
-------------PageInfo2
-----Thematiques 2
-------------PageInfo1
-------------PageInfo2
-----Thematiques 3
-------------PageInfo1
-------------PageInfo2
-----Thematiques 4
-------------PageInfo1
-------------PageInfo2
--pageAccueil.html
+-Images  
+-Thematiques  
+----Thematiques 1  
+------------PageInfo1  
+------------PageInfo2  
+----Thematiques 2  
+------------PageInfo1  
+------------PageInfo2  
+----Thematiques 3  
+------------PageInfo1  
+------------PageInfo2  
+----Thematiques 4  
+------------PageInfo1  
+------------PageInfo2  
+-pageAccueil.html  
 
 BarrosBerry : Tiago BARROS SÁ PAULOS
 canonvirgile : Virgile Canon
