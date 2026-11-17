@@ -15,13 +15,14 @@
         <ul id="responsive-listPageAccueil">
             <li><a href="pageAccueil.php" class="nav-button">Accueil</a></li>
             <li><a href="wait" class="nav-button">Choisir un article</a></li>
+            <li><a href="wait" class="nav-button">Choisir une thématique</a></li>
             <li><a href="ticket.php" class="nav-button">Ticket</a></li>
         </ul>
     </nav>
     <main class="colonne1PageAccueil">
         <section id="articleDuJour" class="article">
             <article class="article du jour">
-                Globalement link l'article ici mais en responsive ce sera compliquer :thumbsup:
+                Globalement link l'article ici mais en responsive ce sera compliquer
             </article>
         </section>
     </main>
