@@ -9,18 +9,18 @@ Une arborescence typique pourrait être organisée de cette façon :
 
 -Images  
 -Thematiques  
-        -Thematiques 1  
-                -PageInfo1  
-                -PageInfo2  
-        -Thematiques 2  
-                -PageInfo1  
-                -PageInfo2  
-        -Thematiques 3  
-                -PageInfo1  
-                -PageInfo2  
-        -Thematiques 4  
-                -PageInfo1  
-                -PageInfo2  
+&emsp;&emsp;-Thematiques 1  
+&emsp;&emsp;&emsp;&emsp;-PageInfo1  
+&emsp;&emsp;&emsp;&emsp;-PageInfo2  
+&emsp;&emsp;-Thematiques 2  
+&emsp;&emsp;&emsp;&emsp;-PageInfo1  
+&emsp;&emsp;&emsp;&emsp;-PageInfo2  
+&emsp;&emsp;-Thematiques 3  
+&emsp;&emsp;&emsp;&emsp;-PageInfo1  
+&emsp;&emsp;&emsp;&emsp;-PageInfo2  
+&emsp;&emsp;-Thematiques 4  
+&emsp;&emsp;&emsp;&emsp;-PageInfo1  
+&emsp;&emsp;&emsp;&emsp;-PageInfo2  
 -pageAccueil.html  
 
 BarrosBerry : Tiago BARROS SÁ PAULOS  
