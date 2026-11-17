@@ -60,34 +60,107 @@
     <script src="node_modules/grapesjs/dist/grapes.min.js"></script>
 
     <script type="text/javascript">
-        const editor = grapesjs.init({
-            container: '#gjs',
-            fromElement: true,
-            height: '100vh',
-            width: 'auto',
-            storageManager: false,
-            canvas: {
-                styles: [
-                    'node_modules/bootstrap/dist/css/bootstrap.css',
-                    'style.css'
-                ]
-            },
-            canvasCss: `
-                titre, sommaire { 
-                    display: block; 
+       const editor = grapesjs.init({
+        container: '#gjs',
+        fromElement: true,
+        height: '100vh',
+        width: 'auto',
+        storageManager: false,
+
+        canvas: {
+            styles: [
+                'node_modules/bootstrap/dist/css/bootstrap.css',
+                'style.css'
+            ]
+        },
+
+        canvasCss: `
+            titre, sommaire {
+                display: block;
+            }
+
+            .grid-container {
+                margin-left: 2% !important;
+                margin-right: 2% !important;
+                column-gap: 20px !important;
+                grid-template-columns: 1fr 4fr 1fr !important;
+            }
+        `
+    });
+    // Ajouter le bouton Enregistrer
+    editor.Panels.addButton('options', {
+        id: 'save-page',
+        label: '💾 Enregistrer',
+        command: 'save-page'
+    });
+
+    // Commande sauvegarder
+   editor.Commands.add('save-page', {
+        async run(editor) {
+
+            const cssCanvas = `
+                titre, sommaire {
+                    display: block;
                 }
+
                 .grid-container {
-                    margin-left: 2% !important;
-                    margin-right: 2% !important;
-                    column-gap: 20px !important;
-                    grid-template-columns: 1fr 4fr 1fr !important;
+                    display: grid;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    column-gap: 20px;
+                    grid-template-columns: 1fr 4fr 1fr;
                 }
-            `
-            
-        });
-        editor.on('load', () => {
-            editor.runCommand('core:preview');
-        });
+            `;
+
+            const response = await fetch('save.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    html: editor.getHtml(),
+                    css: editor.getCss(),
+                    cssCanvas: cssCanvas,
+                    projectData: editor.getProjectData()
+                })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert('Page enregistrée avec succès !');
+            } else {
+                alert('Erreur lors de la sauvegarde');
+            }
+        }
+    });
+    async function chargerProjet() {
+
+        try {
+            const response = await fetch('load.php?t=' + Date.now());
+
+            if (!response.ok) {
+                console.log('Aucun projet sauvegardé');
+                return;
+            }
+
+            const projectData = await response.json();
+
+            if (!projectData || !projectData.pages) {
+                console.log('Données du projet invalides');
+                return;
+            }
+
+            editor.loadProjectData(projectData);
+
+            console.log('Projet restauré avec succès');
+
+        } catch (error) {
+            console.error('Erreur de chargement :', error);
+        }
+    }
+
+    chargerProjet();
     </script>
 </body>
 </html>
