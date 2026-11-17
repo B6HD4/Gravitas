@@ -30,3 +30,13 @@ body {
   justify-content: space-between; 
   gap: 30%;                      
 }
+
+header {
+  margin-right: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
