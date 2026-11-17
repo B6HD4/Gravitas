@@ -2,30 +2,30 @@ Nous ne connaissons pas encore l’exactitude de tous les dossiers et fichiers q
 
 Il y aura :
 
-Plusieurs fichiers de code, sûrement répartis dans des dossiers afin de faciliter la lecture et l’organisation. Par exemple, un dossier pour les pages d’information, un dossier pour les images, etc.
+Plusieurs fichiers de code, sûrement répartis dans des dossiers afin de faciliter la lecture et l’organisation. Par exemple, un dossier pour les pages d’information, un dossier pour les images, etc.  
 Étant donné qu’il s’agit d’une application web, les langages utilisés seront HTML, CSS, JavaScript, PHP, ainsi que toutes les technologies qui nous seront demandées d’utiliser, sans oublier les bibliothèques et les API que nous utiliserons.
 
 Une arborescence typique pourrait être organisée de cette façon :
 
 -Images  
 -Thematiques  
-----Thematiques 1  
-------------PageInfo1  
-------------PageInfo2  
-----Thematiques 2  
-------------PageInfo1  
-------------PageInfo2  
-----Thematiques 3  
-------------PageInfo1  
-------------PageInfo2  
-----Thematiques 4  
-------------PageInfo1  
-------------PageInfo2  
+        -Thematiques 1  
+                -PageInfo1  
+                -PageInfo2  
+        -Thematiques 2  
+                -PageInfo1  
+                -PageInfo2  
+        -Thematiques 3  
+                -PageInfo1  
+                -PageInfo2  
+        -Thematiques 4  
+                -PageInfo1  
+                -PageInfo2  
 -pageAccueil.html  
 
-BarrosBerry : Tiago BARROS SÁ PAULOS
-canonvirgile : Virgile Canon
-ignir64 : Thibaut FONTAINE
-B6H_D4 : Bixente HIRIART--DICHARRY
-Luca-Larrarte : Luca LARRARTE
-MrDaWae : Maël STIENNE
+BarrosBerry : Tiago BARROS SÁ PAULOS  
+canonvirgile : Virgile Canon  
+ignir64 : Thibaut FONTAINE  
+B6H_D4 : Bixente HIRIART--DICHARRY  
+Luca-Larrarte : Luca LARRARTE  
+MrDaWae : Maël STIENNE  
