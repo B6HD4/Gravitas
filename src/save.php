@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json; charset=utf-8');
 
-$directory = __DIR__ . '/pages/';
+$directory = __DIR__ . '../pages/';
 
 if (!is_dir($directory)) {
     mkdir($directory, 0755, true);
@@ -27,7 +27,7 @@ $page = '<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../src/style.css">
 
 <style>
 ' . $cssCanvas . '
