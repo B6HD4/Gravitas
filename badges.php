@@ -1,5 +1,16 @@
+<?php session_start(); 
+header('Content-Type: text/html; charset=UTF-8');
+?>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravitas</title>
+    <meta name="description" content="Affichage des badges" charset="UTF-8">
+    <link rel="link" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
 <?php
-        session_start();
         $_SESSION['idUser']='1';
         //Connexion à la base de données en pdo
         require_once 'connexion.php';
@@ -34,3 +45,4 @@
             }
         }
 ?>
+</html>
