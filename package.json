@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "grapesjs": "^0.23.9"
   }
 }

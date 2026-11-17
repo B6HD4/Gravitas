@@ -1,0 +1,226 @@
+{
+    "dataSources": [],
+    "assets": [],
+    "styles": [],
+    "pages": [
+        {
+            "frames": [
+                {
+                    "component": {
+                        "type": "wrapper",
+                        "stylable": [
+                            "background",
+                            "background-color",
+                            "background-image",
+                            "background-repeat",
+                            "background-attachment",
+                            "background-position",
+                            "background-size"
+                        ],
+                        "attributes": {
+                            "id": "ie5j"
+                        },
+                        "components": [
+                            {
+                                "classes": [
+                                    "grid-container"
+                                ],
+                                "components": [
+                                    {
+                                        "tagName": "titre",
+                                        "components": [
+                                            {
+                                                "tagName": "h1",
+                                                "type": "text",
+                                                "attributes": {
+                                                    "id": "ix375"
+                                                },
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Titre de l'article N°1"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tagName": "sommaire",
+                                        "components": [
+                                            {
+                                                "tagName": "h2",
+                                                "type": "text",
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Sommaire :"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "attributes": {
+                                                    "id": "iiya1"
+                                                },
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Intro"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Chap 1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Chap n"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Lien vers les sources"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tagName": "article",
+                                        "components": [
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "attributes": {
+                                                    "id": "il8nn"
+                                                },
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Contenu de l'article :"
+                                                    },
+                                                    {
+                                                        "tagName": "br",
+                                                        "void": true
+                                                    },
+                                                    {
+                                                        "tagName": "br",
+                                                        "void": true
+                                                    },
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": " \n                        « Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, \n                        ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, \n                        enim est eleifend "
+                                                    },
+                                                    {
+                                                        "tagName": "span",
+                                                        "type": "text",
+                                                        "attributes": {
+                                                            "id": "ifh6m"
+                                                        },
+                                                        "components": [
+                                                            {
+                                                                "type": "textnode",
+                                                                "content": "mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. \n                        Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. \n                        Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. \n                        Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.\n                        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. \n                        Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. "
+                                                            },
+                                                            {
+                                                                "tagName": "span",
+                                                                "type": "text",
+                                                                "attributes": {
+                                                                    "id": "i704g",
+                                                                    "draggable": "true"
+                                                                },
+                                                                "components": [
+                                                                    {
+                                                                        "tagName": "i",
+                                                                        "type": "text",
+                                                                        "attributes": {
+                                                                            "id": "ifgt5",
+                                                                            "draggable": "true"
+                                                                        },
+                                                                        "components": [
+                                                                            {
+                                                                                "type": "textnode",
+                                                                                "content": "Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, \n                        in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis."
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "textnode",
+                                                                "content": " Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. \n                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id,\n                        congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.\n\n                        Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. \n                        Fusce vulputat"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "e sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. \n                        Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, \n                        et ultricies lacus lorem varius purus. Curabitur eu amet. » \n                    "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tagName": "aside",
+                                        "components": [
+                                            {
+                                                "tagName": "p",
+                                                "type": "text",
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Image D'illustration"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tagName": "button",
+                                                "type": "text",
+                                                "classes": [
+                                                    "btn",
+                                                    "btn-primary"
+                                                ],
+                                                "components": [
+                                                    {
+                                                        "type": "textnode",
+                                                        "content": "Cliquez ici pour accéder au jeu"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "head": {
+                            "type": "head"
+                        },
+                        "docEl": {
+                            "tagName": "html"
+                        }
+                    },
+                    "id": "8tiTPTL7llM39c3i"
+                }
+            ],
+            "id": "nBG4a5MiPn6Ut1bW"
+        }
+    ],
+    "symbols": []
+}
