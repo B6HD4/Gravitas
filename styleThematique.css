@@ -37,11 +37,6 @@ header {
 }
 
 header {
-  margin-right: auto;
-}
-
-.search {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
+ display: grid;
+ justify-self: left;
 }
