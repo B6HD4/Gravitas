@@ -15,6 +15,8 @@ header('Content-Type: text/html; charset=UTF-8');
         //Connexion à la base de données en pdo
         require_once 'connexion.php';
 
+
+
         $sql = "SELECT * FROM BADGE";
         $pdoStatement = $pdo->prepare($sql);
         $pdoStatement->execute();
