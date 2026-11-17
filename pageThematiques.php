@@ -9,6 +9,15 @@
     
 </head>
 <body>
+    <header>
+        <search>
+            <form action="/recherche" method="get">
+                <label for="barre-recherche">Rechercher une thématique :</label>
+                <input type="recherche" id="barre-recherche" name="barre-recherche-thematique" placeholder="Entrez la thématique..."/>
+                <button class="btn btn-secondary" type="submit">Rechercher</button>
+            </form>
+        </search>
+    </header>
     <main class="conteneur-central">
         <section class="section-thematique" name="section-thematique1">
             <h2>Nom de groupe de thématique : </h3>
