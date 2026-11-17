@@ -35,3 +35,13 @@ header {
  display: grid;
  justify-self: left;
 }
+
+header {
+  margin-right: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
