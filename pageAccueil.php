@@ -1,3 +1,42 @@
+<!--
+    Auteur : Gravitas
+    Date : 2024-06-10
+    Description : Page d'accueil de l'application web Gravitas
+-->
+<!-- css
+ 
+
+#PageAccueil {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75vw;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.colonne1PageAccueil {
+  margin-left: 0%;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.colonne2PageAccueil {
+  margin-left: 40%;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.colonne3PageAccueil {
+  margin-right: 0%;
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+-->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
