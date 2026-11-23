@@ -30,5 +30,6 @@ $twig->addExtension(new \Twig\Extension\DebugExtension());
 //Ajout de l'extension d'internationalisation qui permet d'utiliser les filtres de date dans twig
 $twig->addExtension(new IntlExtension());
 
+echo $twig->render('pageThematiques.html.twig');
 
 ?>
