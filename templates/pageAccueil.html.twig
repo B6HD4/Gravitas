@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/stylePageAccueil.css">
+
+    <body>
+    <header>
+        <h1>Bienvenue sur l'application Web Gravitas</h1>
+    </header>
+    <nav class="main-navPageAccueil">
+        <ul id="responsive-listPageAccueil">
+            <li><a href="pageAccueil.php" class="nav-button">Accueil</a></li>
+            <li><a href="pageArticle.php" class="nav-button">Choisir un article</a></li>
+            <li><a href="pageThematique.php" class="nav-button">Choisir une thématique</a></li>
+            <li><a href="ticket.php" class="nav-button">Ticket</a></li>
+        </ul>
+    </nav>
+    <main id="PageAccueil">
+        <section id="articleDuJour" class="colonne1PageAccueil">
+            <article>
+                Globalement link l'article ici mais en responsive ce sera compliqué
+            </article>
+        </section>
+
+        <section id="descriptionAppli" class="colonne2PageAccueil">
+            <article>
+                Bonsoir ici la description de l'application
+            </article>
+        </section>
+
+        <section id="apparenceAppli" class="colonne3PageAccueil">
+            <article>
+                Bonsoir ici la feature d'apparence du site web
+            </article>
+        </section>
+    </main>
+</body>
+
+{% endblock %}
