@@ -23,4 +23,4 @@ if (!$config_website) {
 define('WEBSITE_TITLE', $config_website['title']);
 define('WEBSITE_VERSION', $config_website['version']);
 define('WEBSITE_DESCRIPTION', $config_website['description']);
-define('WEBSITE_LANGUAGE', $config_website['language']);
+define('WEBSITE_LANGUAGE', $config_website['langage']);
