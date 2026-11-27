@@ -3,7 +3,7 @@
         'name' => 'b6hd4/gravitas',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'aff58c5441d53e3ec114b23f93c8d96b905e59e1',
+        'reference' => 'c5c1ed36faef404149f5f09cb52d8eab8ca7207c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'b6hd4/gravitas' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'aff58c5441d53e3ec114b23f93c8d96b905e59e1',
+            'reference' => 'c5c1ed36faef404149f5f09cb52d8eab8ca7207c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

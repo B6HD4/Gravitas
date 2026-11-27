@@ -1,0 +1,23 @@
+#PageAccueil {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr; /* 40% / 40% / 20% */
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.colonne1PageAccueil,
+.colonne2PageAccueil,
+.colonne3PageAccueil {
+  padding: 20px;
+  box-sizing: border-box;
+  min-width: 0; /* évite que le contenu fasse déborder la colonne */
+}
+
+/* Responsive : une seule colonne sur tablette/mobile */
+@media (max-width: 768px) {
+  #PageAccueil {
+    grid-template-columns: 1fr;
+  }
+}
